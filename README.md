@@ -10,7 +10,8 @@ Students are expected to:
 Student Info
 =======================
 
-* Name: *YourNameHere*
-* ID: *YourIdHere*
-* Group ID: *Your Group ID here*
-* Project Name: *Your Project Name here*
+* Name: Nguyen Nu Lan Anh
+* ID: BA12-016
+* Group ID: 18
+* Project Name: COVID-19 Stats
+
