@@ -10,10 +10,10 @@ import android.view.ViewGroup;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link ForecastFrangment#newInstance} factory method to
+ * Use the {@link fragment2#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class ForecastFrangment extends Fragment {
+public class fragment2 extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -24,7 +24,7 @@ public class ForecastFrangment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public ForecastFrangment() {
+    public fragment2() {
         // Required empty public constructor
     }
 
@@ -34,11 +34,11 @@ public class ForecastFrangment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment ForecastFrangment.
+     * @return A new instance of fragment fragment2.
      */
     // TODO: Rename and change types and number of parameters
-    public static ForecastFrangment newInstance(String param1, String param2) {
-        ForecastFrangment fragment = new ForecastFrangment();
+    public static fragment2 newInstance(String param1, String param2) {
+        fragment2 fragment = new fragment2();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -58,11 +58,7 @@ public class ForecastFrangment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = new View(getContext());
-        view.setBackgroundColor(0x2000FF00);
         // Inflate the layout for this fragment
-//        return view;
-        return inflater.inflate(R.layout.fragment_forecast_frangment, container, false);
+        return inflater.inflate(R.layout.fragment_fragment2, container, false);
     }
-
 }
