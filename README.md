@@ -11,7 +11,10 @@ Student Info
 =======================
 
 * Name: Nguyen Nu Lan Anh
+
 * ID: BA12-016
+
 * Group ID: 18
-* Project Name: COVID-19 Stats
+
+* Project Name: COVID-19 Stats 
 
